@@ -66,36 +66,11 @@
   </head>
   <body>
     
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Indie</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-              </li>
-               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="form.php">Form</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.youtube.com/">Youtube</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://open.spotify.com/">Spotify</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <?php
+
+    include 'includes/navbar.html'
+
+    ?>
 
     <main>
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -159,21 +134,21 @@
 
             <h2 class="fw-normal">Billie Joe</h2>
             <p>He is an American musician who is the lead vocalist, guitarist, and primary songwriter of the rock band Green Day. He is also a guitarist and vocalist for the punk rock band Pinhead Gunpowder, and provides lead vocals for Green Day's side projects Foxboro Hot Tubs, The Network, The Longshot and The Coverups. Armstrong has been considered by critics as one of the greatest punk rock guitarists of all time.</p>
-            <p><a class="btn btn-secondary" href="billiejoe.html">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Billie_Joe_Armstrong">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img src="images/alexturner.jpg" class="rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
 
             <h2 class="fw-normal">Alex Turner</h2>
             <p>He is an English musician, singer, songwriter, and record producer. He is best known as the frontman and principal songwriter of the rock band Arctic Monkeys, with whom he has released six albums. He has also recorded with his side project the Last Shadow Puppets and as a solo artist.</p>
-            <p><a class="btn btn-secondary" href="alexturner.html">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Alex_Turner">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img src="images/kurtcobain.jpg" class="rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
 
             <h2 class="fw-normal">Kurt Cobain</h2>
             <p>He was an American musician, best known as the lead vocalist, guitarist and primary songwriter of the rock band Nirvana. Through his angst-fueled songwriting and anti-establishment persona, Cobain's compositions widened the thematic conventions of mainstream rock. He was heralded as a spokesman of Generation X and is considered one of the most influential musicians in the history of alternative rock.</p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Kurt_Cobain">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
