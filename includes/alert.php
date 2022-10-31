@@ -1,6 +1,6 @@
 <script>
-javascript:alert('Cadastro efetuado com Sucesso!');
-javascript:window.location='form.php';
+javascript:alert('Submitted successfuly!');
+javascript:window.location='musicproject/form.php';
 </script>
 <?php
 include 'index.html';
