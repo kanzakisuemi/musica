@@ -76,7 +76,7 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
               </li>
                <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="form.php">Form</a>
@@ -166,7 +166,7 @@
 
             <h2 class="fw-normal">Alex Turner</h2>
             <p>He is an English musician, singer, songwriter, and record producer. He is best known as the frontman and principal songwriter of the rock band Arctic Monkeys, with whom he has released six albums. He has also recorded with his side project the Last Shadow Puppets and as a solo artist.</p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="alexturner.html">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img src="images/kurtcobain.jpg" class="rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
