@@ -63,10 +63,6 @@
   </head>
   <body>
 
-  	  <?php
-   include 'includes/connection.php'; 
-  ?>
-
 	<header>
 	  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 	    <div class="container-fluid">
@@ -98,7 +94,7 @@
 	  </nav>
 	</header>
     <br> 
-    <form  style="margin: auto; width: 70%" method="post" action="includes/connection.php">
+    <form  style="margin: auto; width: 70%" method="post" action="includes/connect.php">
      <label for="song_name" class="form-label">Song</label>
      <input type="text" class="form-control" id="song_name" placeholder="Yellow" name="song_name" required><br>
      <label for="artist_name" class="form-label">Artist</label>
@@ -110,7 +106,7 @@
      <label for="users_age" class="form-label">Age</label>
      <input type="text" class="form-control" id="users_age" placeholder="19" name="users_age" required><br>
      <input type="button" name="submit" value=" Submit " style="background-color: darkslateblue; border-radius: 7px; border-width: 1px; color: ivory;">
-    </form>
+    </form> <br/>
   
 
 

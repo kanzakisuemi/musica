@@ -55,7 +55,7 @@ if (array_filter($errors)) {
   $users_name = mysqli_real_escape_string($conn, $_POST['users_name'])
   $users_age = mysqli_real_escape_string($conn, $_POST['users_age'])
 
-  $sql = "INSERT INTO aboutmusic (song_name, artist_name, recommendation, users_name, users_age) VALUES ('$song_name', '$artist_name', '$recommendation', '$users_name', '$users_age')";
+  $sql = "INSERT into aboutmusic (song_name, artist_name, recommendation, users_name, users_age) VALUES ('$song_name', '$artist_name', '$recommendation', '$users_name', '$users_age')";
 
   if(mysqli_query($conn, $sql)){
     header('Location: index.php')
