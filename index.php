@@ -50,7 +50,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="images/coldplayshow.jpg" style="width: 100%">
+            <img src="images/coldplay20.jpg" style="width: 100%">
             <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
             <div class="container">
               <div class="carousel-caption text-end">
@@ -108,11 +108,11 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+            <h2 class="featurette-heading fw-normal lh-1">For those who feel like the last romantic. <span class="text-muted"> Love may not be in the air, but here...</span></h2>
+            <p class="lead">A playlist that brings out the most heart melting songs ever. </p>
           </div>
           <div class="col-md-5">
-            <img src="images/minipernalonga.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
+            <img src="images/minipernalonga.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/>
 
           </div>
         </div>
@@ -121,11 +121,11 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            <h2 class="featurette-heading fw-normal lh-1">For the alternative souls. <span class="text-muted">See for yourself. </span></h2>
+            <p class="lead">A playlist that shows how different songs can provoke different emotions.  </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img src ="images/kanagawa.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
+            <img src ="images/kanagawa.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/>
           </div>
         </div>
 
@@ -133,11 +133,11 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+            <h2 class="featurette-heading fw-normal lh-1">And lastly, for the artistic minds. <span class="text-muted">Those who are willing to transforme inside-out. </span></h2>
+            <p class="lead"> This playlist is a "must hear" for those who are seeking the meaning of life. </p>
           </div>
           <div class="col-md-5">
-            <img src ="images/pinkfloid.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></svg>
+            <img src ="images/pinkfloid.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/></svg>
 
           </div>
         </div>
