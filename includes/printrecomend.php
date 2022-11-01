@@ -2,10 +2,10 @@
 
 // Include connection file  
 include 'open_dbconn.php';
- 
+include 'navbar.html'; 
 //Select query 
-$select = "SELECT * FROM about music";
-$result = $conn->query($select);
+$sql = "SELECT * FROM aboutmusic";
+$result = mysqli_query($conn, $sql);
 ?> 
 
 <!DOCTYPE html> 
@@ -49,3 +49,8 @@ $result = $conn->query($select);
     </div> 
 </body> 
 </html> 
+<?php
+
+include 'close_dbconn.php'
+
+?>
