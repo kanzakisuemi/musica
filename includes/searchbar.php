@@ -3,9 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>recommendations</title>
+	<title>search</title>
 
-	<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
 	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/frontpage.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/frontpage2.css">
@@ -66,12 +65,54 @@
 
    <?php
 
-   include 'includes/navbar.html';
+    include 'includes/navbar.html';
 
-   include 'includes/printrecomend.php';
+	include 'includes/open_dbconn.php';
+	
 
-   ?>
+	$busca = $_GET['pesquisa'];
+	$sql = "SELECT * FROM aboutmusic WHERE nome LIKE '%" . $busca . "%';";
+	$result = mysqli_query($conn,$sql); 
 
-    <br> 
-</body>
-</html>
+
+	?>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+ 
+
+    <div class="container">
+		<table class="table">
+			<thead class="thead-light">
+			<tr>
+			  <th scope="col">Song</th>
+			  <th scope="col">Artist</th>
+			  <th scope="col">Thoughts</th>
+			  <th scope="col">Nickname</th>
+			  <th scope="col">Age</th>
+			</tr>
+			</thead>
+			<tbody>
+                         
+                    
+           <?php foreach($result as $line){ 
+                   $song_id = $line['id'];
+                					echo '<tr>'
+						.'<td>'.$row->song_name.'</td>'
+						.'<td>'.$row->artist_name.'</td>'
+						.'<td>'.$row->recommendation.'</td>'
+						.'<td>'.$row->users_name.'</td>'
+						.'<td>'.$row->users_age.'</td>'
+						.'</tr>';
+				}
+				echo '</table>';
+                        ?> 
+			</tbody> 
+        </table> 
+    </div> 
+</body> 
+</html> 
+<?php
+
+include 'close_dbconn.php'
+
+?>
