@@ -4,8 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>form</title>
+
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
-	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/frontpage.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/frontpage2.css">
 	<style>
