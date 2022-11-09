@@ -17,13 +17,6 @@
      <input type="submit" name="submit" value=" Submit " style="background-color: darkslateblue; border-radius: 7px; border-width: 1px; color: ivory;">
     </form> <br/>
 
-    <footer class="container">
-       <p class="float-end"><a href="#">Back to top</a></p>
-       <p>&copy; 2017–2022 Company, Inc.</p>
-    </footer>
-
-    <script src="script/bootstrap.bundle.min.js"></script>
-
 <?php
-  include 'footer.php';
+  include 'includes/footer.php';
 ?>

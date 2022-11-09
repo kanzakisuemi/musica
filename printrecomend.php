@@ -1,6 +1,6 @@
 <?php 
-	include 'open_dbconn.php';
-	include 'header.php'; 
+	include 'includes/open_dbconn.php';
+	include 'includes/header.php'; 
 	$sql = "SELECT * FROM aboutmusic";
 	$result = mysqli_query($conn, $sql);
 ?> 
@@ -35,6 +35,6 @@
         </table> 
     </div> 
 <?php
-	include 'footer.php';
-	include 'close_dbconn.php';
+	include 'includes/footer.php';
+	include 'includes/close_dbconn.php';
 ?>
