@@ -1,26 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>search</title>
-	<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
-	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/frontpage.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/frontpage2.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/stylish.css">
-</head>
-<body>
-
-   <?php
-
-   include 'includes/navbar.html';
-
+<?php
+	include 'includes/header.php';
 	include 'includes/open_dbconn.php';
-	
-   ?>
-	<br/>
+?>
+<br/>
 
 <div class="container">
 	<table class="table">
@@ -68,10 +50,7 @@
    	</tbody>
    </table>
 </div>
-</body> 
-</html> 
 <?php
-
-include 'includes/close_dbconn.php';
-
+	include 'includes/footer.php';
+	include 'includes/close_dbconn.php';
 ?>

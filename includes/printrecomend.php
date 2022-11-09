@@ -1,22 +1,10 @@
 <?php 
-
-// Include connection file  
-include 'open_dbconn.php';
-include 'navbar.html'; 
-//Select query 
-$sql = "SELECT * FROM aboutmusic";
-$result = mysqli_query($conn, $sql);
+	include 'open_dbconn.php';
+	include 'header.php'; 
+	$sql = "SELECT * FROM aboutmusic";
+	$result = mysqli_query($conn, $sql);
 ?> 
 
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <title>Song recommendation</title> 
-	
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
-</head> 
-<body> 
     <div class="container">
 		<table class="table">
 			<thead class="thead-light">
@@ -30,8 +18,7 @@ $result = mysqli_query($conn, $sql);
 			</thead>
 			<tbody>
                          
-                        <?php   
-			// Loop the music data
+              <?php   
 				echo '<table class="table table-bordered">';
 				while($row = $result->fetch_object()){
 					echo '<tr>'
@@ -43,14 +30,11 @@ $result = mysqli_query($conn, $sql);
 						.'</tr>';
 				}
 				echo '</table>';
-                        ?> 
+              ?> 
 			</tbody> 
         </table> 
     </div> 
-</body> 
-</html> 
 <?php
-
-include 'close_dbconn.php'
-
+	include 'footer.php';
+	include 'close_dbconn.php';
 ?>

@@ -1,25 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <title>Indie & other Music</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
-    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/frontpage.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/frontpage2.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylish.css">
-
-  </head>
-  <body>
-    
-    <?php
-
-    include 'includes/navbar.html'
-
-    ?>
+  <?php
+    include 'includes/header.php';
+  ?>
 
     <main>
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -147,16 +128,6 @@
         <!-- /END THE FEATURETTES -->
 
       </div><!-- /.container -->
-
-
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-end"><a href="#">Back to top</a></p>
-        <p>&copy; 2017–2022 Company, Inc.</p>
-      </footer>
-    </main>
-
-    <script src="script/bootstrap.bundle.min.js"></script>
-      
-  </body>
-</html>
+<?php
+  include 'includes/footer.php';
+?>

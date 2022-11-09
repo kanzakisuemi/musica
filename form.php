@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>form</title>
-
-	<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
-	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/frontpage.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/frontpage2.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/stylish.css">
-  </head>
-  <body>
-
-   <?php
-
-   include 'includes/navbar.html'
-
-   ?>
+<?php
+  include 'includes/header.php';
+?>
 
     <br> 
     <form  style="margin: auto; width: 70%" method="post" action="includes/connect.php">
@@ -33,8 +16,6 @@
      <input type="text" class="form-control" id="users_age" placeholder="19" name="users_age" value="" required><br>
      <input type="submit" name="submit" value=" Submit " style="background-color: darkslateblue; border-radius: 7px; border-width: 1px; color: ivory;">
     </form> <br/>
-  
-
 
     <footer class="container">
        <p class="float-end"><a href="#">Back to top</a></p>
@@ -43,5 +24,6 @@
 
     <script src="script/bootstrap.bundle.min.js"></script>
 
-  </body>
-</html>
+<?php
+  include 'footer.php';
+?>
