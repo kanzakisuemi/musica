@@ -1,5 +1,4 @@
 <?php
-  header("location:alert.php");
   include 'open_dbconn.php';
   $sql = "INSERT INTO aboutmusic (song_name, artist_name, recommendation, users_name, users_age) VALUES (?, ?, ?, ?, ?)";
   $stmt = $conn->prepare($sql);
@@ -11,7 +10,14 @@
   $users_name = $_POST["users_name"];
   $users_age = $_POST["users_age"]; 
 
-  $stmt->execute();
+  if(mysqli_execute($stmt)):
+    echo 
+    "<script type:javascript>
+      alert('Submitted Sucessfully!')
+      window.location.href = 'http://localhost:8080/musicproject/pages/printrecomend.php'
+    </script>";
+  endif;
+
   $stmt->close();
   include 'close_dbconn.php';
 ?>

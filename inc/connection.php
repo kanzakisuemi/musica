@@ -1,5 +1,5 @@
 <?php
-  include 'includes/open_dbconn.php';
+  include 'open_dbconn.php';
 
   $song_name = $artist_name = $recommendation = $users_name = $users_age = '';
   $errors = array('song_name' =>'' , 'artist_name' =>'' , 'recommendation' =>'' ,'users_name' =>'' ,'users_age' =>'');
@@ -42,10 +42,6 @@
     }
   }
 
-
-
-
-
 if (array_filter($errors)) {
   // code...
 } else {
@@ -61,12 +57,6 @@ if (array_filter($errors)) {
     header('Location: index.php')
 
   } else echo 'query error' .mysqli_error($conn);
-
-
-
 }
- 
-
-
   include 'close_dbconn.php';
 ?>
